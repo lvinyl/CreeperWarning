@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "creeper-warning",
+	"version": "${version}",
+	"name": "Creeper Warning",
+	"description": "Warns the player if there's a creeper within explosion range",
+	"authors": [
+		"lvinyl"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/creeperwarning",
+		"sources": "https://github.com/lvinyl/CreeperWarning"
+	},
+	"license": "MIT",
+	"icon": "assets/CreeperWarning/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.lvinyl.CreeperWarningMod"
+		],
+		"client": [
+			"me.lvinyl.CreeperWarningClient"
+		]
+	},
+	"mixins": [
+		"CreeperWarning.mixins.json",
+		{
+			"config": "CreeperWarning.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

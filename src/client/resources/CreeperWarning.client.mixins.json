@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "me.lvinyl.mixin.client",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"CreeperWarningClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
