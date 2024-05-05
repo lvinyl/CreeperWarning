@@ -1,3 +1,5 @@
+https://modrinth.com/project/creeperwarning
+
 Warns the player if there's a creeper within explosion range
 
 Commands:
