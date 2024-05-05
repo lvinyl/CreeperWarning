@@ -1,6 +1,7 @@
 Warns the player if there's a creeper within explosion range
 
 Commands:
+
 `/creeperwarning chatWarning <true or false>` - Enables or disables the chat warning feature (default: `true`).
 
 `/creeperwarning titleWarning <true or false>` - Enables or disables the title warning feature(default: `true`).
