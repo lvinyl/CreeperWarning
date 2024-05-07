@@ -6,13 +6,13 @@ Commands:
 
 `/creeperwarning chatWarning <true or false>` - Enables or disables the chat warning feature (default: `true`).
 
-`/creeperwarning titleWarning <true or false>` - Enables or disables the title warning feature(default: `true`).
+`/creeperwarning titleWarning <true or false>` - Enables or disables the title warning feature (default: `true`).
 
-`/creeperwarning actionbarWarning <true or false>` - Enables or disables the actionbar warning feature(default: `true`).
+`/creeperwarning actionbarWarning <true or false>` - Enables or disables the actionbar warning feature (default: `true`).
 
-`/creeperwarning onlyWorkInSurvival <true or false>` - Configures whether the mod should only work in survival mode(default: `true`).
+`/creeperwarning onlyWorkInSurvival <true or false>` - Configures whether the mod should only work in survival mode (default: `true`).
 
-`/creeperwarning explosionRadius <radius>` - Sets the explosion radius for creeper detection(default: `3.5`).
+`/creeperwarning explosionRadius <radius>` - Sets the explosion radius for creeper detection (default: `3.5`).
 
 `/creeperwarning toggle` - Toggles the entire Creeper Warning Mod on or off.
 
