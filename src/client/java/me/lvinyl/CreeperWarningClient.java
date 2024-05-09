@@ -1,7 +1,7 @@
 package me.lvinyl;
 
 import com.mojang.brigadier.arguments.BoolArgumentType;
-import com.mojang.brigadier.arguments.FloatArgumentType;
+import com.mojang.brigadier.arguments.DoubleArgumentType;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.command.v2.ClientCommandManager;
 import net.fabricmc.fabric.api.client.command.v2.ClientCommandRegistrationCallback;
@@ -86,7 +86,7 @@ public class CreeperWarningClient implements ClientModInitializer {
                                         return 0;
                                     })))
                     .then(ClientCommandManager.literal("explosionRadius")
-                            .then(ClientCommandManager.argument("radius", FloatArgumentType.floatArg(0))
+                            .then(ClientCommandManager.argument("radius", DoubleArgumentType.doubleArg(0))
                                     .executes(context -> {
                                         explosionRadius = context.getArgument("radius", Double.class);
                                         titleWarningDistance = explosionRadius + 0.5;
